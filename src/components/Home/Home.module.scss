@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headshot {
+  width: 40%;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+}
