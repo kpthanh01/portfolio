@@ -11,4 +11,16 @@
 .projectContainer {
   display: flex;
   flex-direction: row;
+
+  #projectImg2 {
+    display: none;
+  }
+}
+
+.imgHidden {
+  display: none;
+}
+
+.imgShow {
+  display: block;
 }
