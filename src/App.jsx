@@ -19,7 +19,7 @@ function App() {
           path="/"
           element={<Home />}
         />
-        {/* <Route
+        <Route
           path="/projects"
           element={<Projects />}
         />
@@ -30,7 +30,7 @@ function App() {
         <Route
           path="/contact"
           element={<Contact />}
-        /> */}
+        />
       </Routes>
       <Footer />
     </>

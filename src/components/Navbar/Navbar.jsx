@@ -18,16 +18,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 me-4">
             <li className="ms-3">
-              <Link className={styles.links}>Home</Link>
+              <Link className={styles.links} to={"/"}>Home</Link>
             </li>
             <li className="ms-3">
-              <Link className={styles.links}>Projects</Link>
+              <Link className={styles.links} to={"/projects"}>Projects</Link>
             </li>
             <li className="ms-3">
-              <Link className={styles.links}>About</Link>
+              <Link className={styles.links} to={"/about"}>About</Link>
             </li>
             <li className="ms-3">
-              <Link className={styles.links}>Contact</Link>
+              <Link className={styles.links} to={"/contact"}>Contact</Link>
             </li>
           </ul>
         </div>
